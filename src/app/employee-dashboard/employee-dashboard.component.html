@@ -1,0 +1,58 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+      <h1 style="color: aliceblue;">Angular curd</h1>  
+      <div class="d-flex">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success">Add Employee</button>
+      </div>
+    </div>
+</nav>
+
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th scope="col">Employedd Id</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email ID</th>
+            <th scope="col">Mobile No</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Sakshi</td>
+            <td>Vidya</td>
+            <td>user30gmail.com</td>
+            <td>9849012345</td>
+            <td>$ 5000000</td>
+           <td>
+            <button class="btn btn-info">Edit</button>
+            <button class="btn btn-danger mx-3">Delete</button>
+           </td>
+        </tr>
+    </tbody>
+</table>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
